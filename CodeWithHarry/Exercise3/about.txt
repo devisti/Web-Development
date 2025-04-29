@@ -1,0 +1,2 @@
+creating a card design using html, css where image is directly linked from internet.
+also here is a more neat clean similar project in More Efficient folder.

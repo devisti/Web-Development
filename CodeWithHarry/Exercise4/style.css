@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color: rgb(0, 128, 0);
+    --color2: rgb(0, 139, 139);
+    --color3: rgb(255, 0, 255);
+    --color4: rgb(105, 105, 105);
+}
+
+.main-container {
+    background-color: brown;
+}
+
+.main-container li {
+    padding: 20px;
+}
+
+.main-container ul {
+    display: flex;
+    list-style: none;
+}
+
+/* this css is used for making colourful nav bar */
+.main-container li:first-child {
+    background-color: var(--color);
+}
+
+.main-container li:nth-child(2) {
+    background-color: var(--color2);
+}
+
+.main-container li:nth-child(3) {
+    background-color: var(--color3);
+}
+
+.main-container li:nth-child(4) {
+    background-color: var(--color4);
+}
