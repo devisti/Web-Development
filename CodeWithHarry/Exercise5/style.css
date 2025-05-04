@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox {
+    /* every elements is inside this container, it is a mother container */
+    background-color: black;
+    height: 1500px;
+}
+
+.navbar {
+    /* making this nav bar sticky so that it will stick to top while scrolling downwards */
+    background-color: rgb(248, 88, 248);
+    height: 50px;
+}
+
+.sec-mainbox {
+    background-color: rgb(19, 145, 19);
+    height: 450px;
+    margin: 40px 40px 7px 40px;
+}
+
+.sec-mainbox-child1 {
+    display: block;
+    position: relative;
+    top: 75px;
+    left: 100px;
+    background-color: rgb(255, 174, 0);
+    height: 300px;
+    width: 550px;
+
+}
+
+.sec-mainbox-child2 {
+    display: block;
+    position: relative;
+    left: 750px;
+    bottom: 225px;
+    background-color: rgb(0, 132, 255);
+    height: 300px;
+    width: 550px;
+
+}
+
+.third-mainbox {
+    color: white;
+    border: 2px solid white;
+    padding: 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 140px;
+}
+
+.sticky-circle {
+    display: inline-block;
+    background-color: rgb(255, 174, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}

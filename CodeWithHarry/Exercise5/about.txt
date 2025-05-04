@@ -1,0 +1,1 @@
+this is a layout styling beginner project where i styled this layout using basic properties.
