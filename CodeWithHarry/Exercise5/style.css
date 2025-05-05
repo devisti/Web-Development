@@ -7,18 +7,28 @@
     /* every elements is inside this container, it is a mother container */
     background-color: black;
     height: 1500px;
+    width: 100vw;
+    padding-top: 50px;
+
 }
 
 .navbar {
     /* making this nav bar sticky so that it will stick to top while scrolling downwards */
+    position: sticky;
+    z-index: 999;
+    top: 0px;
     background-color: rgb(248, 88, 248);
     height: 50px;
+    width: 1390px;
+    margin: 0px 40px 14px 40px;
+
 }
 
 .sec-mainbox {
     background-color: rgb(19, 145, 19);
     height: 450px;
-    margin: 40px 40px 7px 40px;
+    width: 1390px;
+    margin: 0px auto 7px auto;
 }
 
 .sec-mainbox-child1 {
@@ -53,11 +63,20 @@
     margin: 0 140px;
 }
 
-.sticky-circle {
+.fixed-circle {
     display: inline-block;
     background-color: rgb(255, 174, 0);
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    position: fixed;
+    left: 90vw;
+    bottom: 30px;
 
+}
+
+.footer {
+    background-color: grey;
+    height: 100px;
+    width: 100vw;
 }
