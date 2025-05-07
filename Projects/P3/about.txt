@@ -1,1 +1,0 @@
-This project is about creating a blog website using css variables.
