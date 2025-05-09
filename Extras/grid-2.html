@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* this grid design is made using grid areas. it is simple to read but you cant modify the sizing (not flexible). */
+        .container {
+            display: grid;
+            grid-template-areas: 
+            "nav nav nav"
+            "sidebar main main"
+            "footer footer footer";
+            row-gap: 20px;
+            column-gap: 40px;
+        }
+
+        .items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            /* width: 80px; */
+            height: 80px;
+        }
+
+        .nav {
+            grid-area: nav;
+            background-color: blueviolet;
+        }
+        .main{
+            grid-area: main;
+            background-color: coral;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: darkgrey;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: darkslategray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items nav">nav bar</div>
+        <div class="items main">main content</div>
+        <div class="items sidebar">side Bar</div>
+        <div class="items footer">footer</div>
+    </div>
+</body>
+
+</html>
