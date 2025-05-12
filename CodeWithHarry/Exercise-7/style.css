@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+
+.nav-part-1 {
+    width: 30vw;
+    justify-content: center;
+}
+
+.nav-part-2 {
+    width: 55vw;
+    justify-content: flex-end;
+}
+
+.nav-part-3 {
+    width: 15vw;
+    justify-content: center;
+}
+
+.items {
+    height: 11vh;
+    /* border: 2px solid grey; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-part-1 img {
+    height: 70px;
+}
+
+.nav-part-3 img {
+    width: 80px;
+}
+
+div ul {
+    display: flex;
+    list-style: none;
+    gap: 39px;
+}
+
+.content-cards-wrapper {
+    display: grid;
+    margin-top: 44px;
+    /* border: 2px solid red; */
+    gap: 55px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px;
+    justify-content: center;
+
+}
+
+.content-cards {
+    background-color: #f9f9f9;
+    border-radius: 11px;
+}
+
+.content-cards h2 {
+    margin-top: 12px;
+    text-align: center;
+
+}
+
+.button {
+    background-color: green;
+    width: 40%;
+    height: 13%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.note {
+    text-align: center;
+    margin-top: 11px;
+}
+
+.note p {
+    font-size: 8px;
+    line-height: 2;
+}
+
+.note h6 {
+    margin-bottom: 5px;
+}
