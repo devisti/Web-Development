@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Web Layout | Isti Hoque</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+        body{
+            background-color: black;
+        }
+
+        .navbar1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90vw;
+            height: 55px;
+            background-color: black;
+
+        }
+
+        .apple-logo {
+            width: 22px;
+        }
+        .shop-logo{
+            width: 22px;
+        }
+
+        .navbar1 ul {
+            display: flex;
+            list-style: none;
+            color: white;
+            gap: 66px;
+            margin-left: 66px;
+            margin-right: 66px;
+        }
+
+        .navbar1 ul a {
+            text-decoration: none;
+            color: white;
+        }
+        .navbar1-part2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 10vw;
+            background-color: black ;
+            height: 55px;
+         
+        }
+        .navbar1-part2 div{
+            background-color: white;
+            border-radius: 11px;
+        }
+        .navbar1-part2 div h3{
+            padding: 11px;
+        }
+        .navbar1-wrapper{
+            display: flex;
+            width: 100vw;
+            height: 55px;
+        }
+
+        .navbar2-wrapper {
+            width: 100vw;
+            height: 55px;
+            background-color: black;
+            border-bottom: 1px solid dimgray;
+        }
+        .main-body{
+            display: flex;
+            justify-content: center;
+            margin-top: 44px;
+        }
+        .main-body video{
+            width: 90vw;
+            border-radius: 44px;
+            margin: 44px 0 44px 0;
+        }
+     
+        .fixed-isti{
+            position: fixed;
+            top: 80%;
+            left: 88%;
+            z-index: 999;
+            width: 10vw;
+            border-radius: 50%;
+        }
+        .search-bar-wrapper{
+        
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: white;
+        }
+      
+        .gapping{
+            margin-left: 66px;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="navbar1-wrapper">
+        <div class="navbar1">
+            <a href="https://www.apple.com/in/">
+                <img class="apple-logo" src="Apple-logo.png" alt="Apple logo">
+            </a>
+            <ul>
+                <li><a href="https://www.apple.com/in/mac/">Mac</a></li>
+                <li><a href="">Ipad</a></li>
+                <li><a href="">Iphone</a></li>
+                <li><a href="">Watch</a></li>
+                <li><a href="">TV</a></li>
+                <li><a href="">Music</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+            <a href="">
+                <img class="shop-logo" src="shop-logo.png" alt="shop logo">
+            </a>
+            <a class="gapping" href="">
+                <img class="shop-logo" src="shop-logo.png" alt="shop logo">
+            </a>
+            
+        </div>
+        <div class="navbar1-part2">
+            <div><h3>Isti Hoque</h3></div>
+        </div>
+    </div>
+    <div class="navbar2-wrapper">
+
+    </div>
+    <div class="main-body">
+        <video src="demo-video.mp4" loop></video>
+    </div>
+    <img src="https://avatars.githubusercontent.com/u/115354997?s=400&u=b2fda848bc15246768d8f8c07c62dbe0f5996be2&v=4" alt="Isti" class="fixed-isti">
+</body>
+
+</html>
