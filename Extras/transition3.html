@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            display: flex;
+        }
+
+        .sidebox {
+            background-color: black;
+            width: 10vw;
+            height: 700px;
+            color: white;
+            transition: width 0.2s ease-in-out;
+        }
+
+        .mainbox {
+            background-color: grey;
+            flex-grow: 1;
+            height: 700px;
+        }
+
+        .sidebox:hover {
+            width: 30vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebox">Sidebox</div>
+        <div class="mainbox">Mainbox</div>
+    </div>
+</body>
+
+</html>

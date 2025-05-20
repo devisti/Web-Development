@@ -18,16 +18,17 @@
             background-color: red;
             width: 40vw;
             height: 300px;
-            transition-property: width, height, rotate;
-            transition-duration: 1s;
+            /* transition-property: width, height, transform;
+            transition-duration: 1s; */
             transition-timing-function: cubic-bezier(0.08, 0.61, 0.2, 0.97);
+            transition: width 1s cubic-bezier(0.08, 0.61, 0.2, 0.97), height 1s cubic-bezier(0.08, 0.61, 0.2, 0.97), transform 1s cubic-bezier(0.08, 0.61, 0.2, 0.97);
         }
 
         .box:hover{
             background-color: purple;
             width: 70vw;
             height: 500px;
-            rotate: 90deg;
+            transform: rotate(90deg);
 
         }
     </style>
