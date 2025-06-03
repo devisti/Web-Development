@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+
+    width: 100vw;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.container ul {
+    display: flex;
+    gap: 10vw;
+    list-style: none;
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
