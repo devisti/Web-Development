@@ -4,11 +4,9 @@
 }
 
 .container {
-    background: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1200) no-repeat center / cover;  /* this is the shortend of below properties */
-    /* background-image: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1200); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
+    /* background: [image] [repeat] [position]/[size]; */
+    background: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1200) no-repeat center/cover; 
+    
 
     width: 100vw;
     height: 500px;
