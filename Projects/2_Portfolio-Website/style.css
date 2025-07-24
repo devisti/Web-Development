@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    padding: 3% 10%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.para-container {
+    margin-top: 5%;
+}
+
+.para-container p {
+    padding-left: 11px;
+    padding-top: 4px;
+}
+
+.projects-wrapper {
+    margin-top: 5%;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    height: 700px;
+    padding: 0 5%;
+}
+
+.apple-project-container {
+    background-color: #d4851d;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.cell-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.cell-2 img {
+    width: 100%;
+}
+
+.cell-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    column-gap: 10px;
+}
+
+.netflix-project-container {
+    background-color: #169529;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.netflix-cell-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.netflix-cell-2 img {
+    width: 100%;
+}
+
+.netflix-cell-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    column-gap: 10px;
+}
+
+.projects-container a {
+    text-decoration: none;
+    color: #dedede;
+}
+
+.projects-container a:hover {
+    color: #4fc3f7;
+    text-decoration: underline;
+}
+
+.socialM-wrapper {
+    margin-top: 5%;
+}
+
+.socialM-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 11px;
+}
+
+.socialM-container a {
+    text-decoration: none;
+    color: #8d0a0a;
+}
+
+.socialM-container a:hover {
+    color: #4fc3f7;
+}
+
+.footer {
+    margin-top: 5%;
+}
+
+.footer p {
+    padding-left: 11px;
+}
