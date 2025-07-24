@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .main-container {
@@ -145,6 +145,8 @@ body {
     margin-top: 5%;
 }
 
-.footer p {
-    padding-left: 11px;
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
