@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicked Fn</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            padding: 0 333px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hi Isti</h1>
+    <button class="button">Click Me</button>
+    <div class="container">
+        <!-- the code will be inserted here via JavaScript -->
+    </div>
+
+    <script>
+        const btn = document.body.querySelector(".button")
+        const htmlData = `
+            <h2>This is Added using Clicked Fn</h2>
+        `;
+        btn.addEventListener("click", () => {
+            document.body.querySelector(".container").innerHTML += htmlData;
+        }
+        )
+
+    </script>
+</body>
+
+</html>
